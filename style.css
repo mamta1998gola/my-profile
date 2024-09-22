@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 70%; /* Occupies 70% of the page width */
+    margin: 0 auto; /* Centers the content */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p,
+  .social-links {
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    color: #007bff; /* Colored font for links */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-links a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline;
+  }
+  
+  .about,
+  .projects,
+  .skills,
+  .education,
+  .hobbies {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .project h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .user-image {
+    border-radius: 50%;
+    width: 150px; /* Size of user image */
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%; /* On smaller screens, content takes 90% width */
+    }
+  
+    .header h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
